@@ -1,0 +1,42 @@
+@import "~/src/scss/index.scss";
+
+.banner {
+  height: 500px;
+  background-image: url("../../../assets/jpg/home-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &__dark {
+    // Esto es para hacer el efecto del fondo del banner con el div vacio
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    color: $text-light;
+    font-size: 60px;
+    line-height: 55px;
+    z-index: 1;
+  }
+
+  h2 {
+    color: $text-light;
+    font-weight: 100;
+    font-size: 22px;
+    z-index: 1;
+  }
+}

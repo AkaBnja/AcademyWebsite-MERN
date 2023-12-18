@@ -1,0 +1,23 @@
+@import "~/src/scss/index.scss";
+
+.post {
+  margin-top: 50px;
+
+  .title {
+    color: $text-light;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .content {
+    color: $text-light;
+    opacity: 0.8;
+    font-size: 16px;
+
+    pre {
+      background-color: #000;
+      overflow-x: scroll;
+      padding: 20px;
+    }
+  }
+}

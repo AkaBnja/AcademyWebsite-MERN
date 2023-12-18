@@ -1,0 +1,12 @@
+.newsletter-page {
+  .ui.tab.segment {
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+    // &::-webkit-scrollbar {
+    //   display: none;
+    // }
+  }
+  .ui.menu.secondary {
+    min-height: 0px;
+  }
+}
